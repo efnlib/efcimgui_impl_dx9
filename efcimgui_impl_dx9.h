@@ -3,7 +3,7 @@
 
 #include <efstdbool.h>
 
-bool efcimgui_impl_dx9_init(void *dev);
+bool efcimgui_impl_dx9_init(void *device);
 void efcimgui_impl_dx9_shutdown(void);
 void efcimgui_impl_new_frame(void);
 void efcimgui_impl_dx9_render_draw_data(void *draw_data);
