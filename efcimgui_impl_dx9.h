@@ -1,7 +1,7 @@
 #ifndef _EFCIMGUI_IMPL_DX9
 #define _EFCIMGUI_IMPL_DX9
 
-#include <efstdbool.h>
+#include <stdbool.h>
 
 bool efcimgui_impl_dx9_init(void *device);
 void efcimgui_impl_dx9_shutdown(void);
